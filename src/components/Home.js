@@ -15,11 +15,11 @@ function Home() {
         </Card>
       </div>
       <div className="About">
-        <Card style={{ width: '18rem', backgroundColor: '#65203ea1', color: 'white'}}>
+        <Card style={{ width: '18rem', backgroundColor: '#65203ea1', color: 'white' }}>
           <Card.Body>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.Lorem ipsunm djsdahs dchdjsadh sdfjasha sfajsndniajh hdjahdab hbdjkawh bd dhbdja.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum justo egestas faucibus scelerisque. 
+              Proin fermentum sapien elit, in euismod tellus ullamcorper aliquet.
             </Card.Text>
           </Card.Body>
         </Card>

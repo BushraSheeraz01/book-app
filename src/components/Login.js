@@ -1,8 +1,11 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { useHistory } from 'react-router';
+
 
 
 function Login() {
+    const history = useHistory();
     return (
         <>
             <div className="Login-div">
@@ -20,7 +23,7 @@ function Login() {
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
-                        <Button variant="secondary" type="submit">
+                        <Button variant="secondary" type="submit" onClick={() => history.push('/books') }>
                             Submit
                         </Button>
                     </Form>
